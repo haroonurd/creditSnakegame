@@ -28,3 +28,16 @@ A blockchain-based Snake game where players can earn USDT rewards for high score
    ```bash
    git clone https://github.com/your-username/crypto-snake-game.git
    cd crypto-snake-game
+
+   cd backend
+npm install
+cp .env.example .env
+# Add your Infura URL and contract details to .env
+npm run dev
+
+cd frontend
+npm install
+npm start
+cd contracts
+npm install -g truffle
+truffle migrate --network testnet
