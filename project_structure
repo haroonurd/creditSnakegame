@@ -1,0 +1,20 @@
+crypto-snake-game/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── utils/
+│   │   └── styles/
+│   ├── public/
+│   └── package.json
+├── backend/
+│   ├── routes/
+│   ├── models/
+│   ├── config/
+│   └── package.json
+├── contracts/
+│   └── CryptoSnake.sol
+├── docs/
+│   └── SETUP.md
+├── .gitignore
+├── README.md
+└── package.json
